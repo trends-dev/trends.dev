@@ -4,9 +4,14 @@ import { defineConfigWithTheme } from 'vitepress'
 import type { Config as ThemeConfig } from '@vue/theme'
 import baseConfig from '@vue/theme/config'
 import { headerPlugin } from './headerMdPlugin'
+import UnoCss from 'unocss/vite'
 
 const nav: ThemeConfig['nav'] = [
+  {
+    text: '开源周报',
+    link: '/open-source/',
 
+  }
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
@@ -59,7 +64,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   ],
 
   themeConfig: {
-    // nav,
+    nav,
     // sidebar,
     // i18n,
 
@@ -90,6 +95,9 @@ export default defineConfigWithTheme<ThemeConfig>({
   },
 
   vite: {
+    plugins:[
+      UnoCss()
+    ],
     define: {
       __VUE_OPTIONS_API__: false
     },

@@ -67,7 +67,7 @@ function track(interest?: boolean) {
             type="image/avif"
             :srcset="`${img.replace(/\.png$/, '.avif')}`"
           /> -->
-          <img :src="`${img}`" :alt="name" />
+          <img :src="`${img}`" :style="props.placement === 'aside' ? 'width: 50px;height: 50px;' : ''" :alt="name" />
         </picture>
         <img v-else :src="`${base}/images/${img}`" :alt="name" />
       </a>
