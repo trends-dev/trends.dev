@@ -15,7 +15,15 @@ const nav: ThemeConfig['nav'] = [
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
-
+  '/open-source/': [
+    {
+      text: '开源周报',
+      items:[
+        { text:'首页', link:'/open-source/' },
+        { text:'第一期 4月9日-4月15日', link:'/open-source/2023/4.9-4.15' }
+      ]
+    }
+  ]
 }
 
 export default defineConfigWithTheme<ThemeConfig>({
@@ -65,8 +73,7 @@ export default defineConfigWithTheme<ThemeConfig>({
 
   themeConfig: {
     nav,
-    // sidebar,
-    // i18n,
+    sidebar,
     i18n:{
       locales:'中文平台',
       appearance: '外观'

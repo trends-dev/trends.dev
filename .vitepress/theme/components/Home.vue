@@ -25,8 +25,8 @@ onMounted(async () => {
     <p class="actions">
       <!-- NOTE: hide the home video -->
       <!-- <VueMasteryModal /> -->
-      <a class="get-started" href="/guide/introduction.html">
-        快速上手
+      <a class="get-started" href="/open-source/">
+        开源周报
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
