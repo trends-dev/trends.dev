@@ -4,7 +4,7 @@ gravatar: elonehoo
 twitter: '@elonehoo'
 ---
 
-<h1 align="center" style="margin:0;">开源周报</h1>
+<h1 align="center" style="margin:0;">开源好物</h1>
 
 <script setup>
 import Author from '@theme/components/Author.vue'

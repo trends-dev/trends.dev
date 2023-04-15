@@ -8,7 +8,7 @@ import UnoCss from 'unocss/vite'
 
 const nav: ThemeConfig['nav'] = [
   {
-    text: '开源周报',
+    text: '开源好物',
     link: '/open-source/',
 
   }
@@ -17,7 +17,7 @@ const nav: ThemeConfig['nav'] = [
 export const sidebar: ThemeConfig['sidebar'] = {
   '/open-source/': [
     {
-      text: '开源周报',
+      text: '开源好物',
       items:[
         { text:'首页', link:'/open-source/' },
         { text:'第一期 4月9日-4月15日', link:'/open-source/2023/4.9-4.15' }
