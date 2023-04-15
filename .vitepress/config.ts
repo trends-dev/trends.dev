@@ -86,7 +86,7 @@ export default defineConfigWithTheme<ThemeConfig>({
     footer: {
       license: {
         text: '版权声明',
-        link: 'https://github.com/vuejs-translations/docs-zh-cn#%E7%89%88%E6%9D%83%E5%A3%B0%E6%98%8E'
+        link: 'https://github.com/trends-dev/trends.dev/blob/main/LICENSE'
       },
       copyright: `本文档内容版权为 Fenta 和 Elone Hoo 所有，保留所有权利。`
     }
