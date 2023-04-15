@@ -4,13 +4,16 @@ gravatar: elonehoo
 twitter: '@elonehoo'
 ---
 
-<h1 style="margin:0;">开源周报</h1>
+<h1 align="center" style="margin:0;">开源周报</h1>
 
 <script setup>
 import Author from '@theme/components/Author.vue'
+import AuthorGrop from '@theme/components/AuthorGrop.vue'
 </script>
 
-<Author />
+<AuthorGrop>
+  <Author />
+</AuthorGrop>
 
 当今世界，开源技术和项目发展迅速，每天都有大量的新项目和技术涌现。因此，写开源周报有助于我们了解最新的开源技术和项目动态，以及开源社区的活动和大会。通过开源周报，我们可以：
 
