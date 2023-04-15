@@ -62,6 +62,10 @@ export default defineConfigWithTheme<ThemeConfig>({
     // nav,
     // sidebar,
     // i18n,
+    i18n:{
+      locales:'中文平台',
+      appearance: '外观'
+    },
 
     // carbonAds: {
     //   code: 'CEBDT27Y',
