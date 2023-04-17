@@ -20,7 +20,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
       text: '开源好物',
       items:[
         { text:'首页', link:'/open-source/' },
-        { text:'第一期 4月9日-4月15日', link:'/open-source/2023/4.9-4.15' }
+        { text:'第一期 4月9日-4月15日', link:'/open-source/2023/4.9-4.15' },
+        { text:'第二期 4月16日-4月22日', link:'/open-source/2023/4.16-4.22' }
       ]
     }
   ]
