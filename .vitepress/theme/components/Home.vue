@@ -39,7 +39,7 @@ onMounted(async () => {
           />
         </svg>
       </a>
-      <!-- <a class="setup" href="/guide/quick-start.html">安装</a> -->
+      <a class="setup" href="/vue/">Vue 专栏</a>
     </p>
   </section>
 

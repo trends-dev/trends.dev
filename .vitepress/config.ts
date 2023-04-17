@@ -7,11 +7,8 @@ import { headerPlugin } from './headerMdPlugin'
 import UnoCss from 'unocss/vite'
 
 const nav: ThemeConfig['nav'] = [
-  {
-    text: '开源好物',
-    link: '/open-source/',
-
-  }
+  { text: '开源好物', link: '/open-source/', },
+  { text: 'Vue 专栏', link: '/vue/', },
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
@@ -21,6 +18,15 @@ export const sidebar: ThemeConfig['sidebar'] = {
       items:[
         { text:'首页', link:'/open-source/' },
         { text:'第一期 4月9日-4月15日', link:'/open-source/2023/4.9-4.15' }
+      ]
+    }
+  ],
+  '/vue/':[
+    {
+      text: 'Vue 专栏',
+      items:[
+        { text:'首页', link:'/vue/' },
+        { text:'鼠标监听事件', link:'/vue/vue3/0001-mouse-listener-event' }
       ]
     }
   ]
