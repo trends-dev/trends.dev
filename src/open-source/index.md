@@ -1,7 +1,8 @@
 ---
-author: Elone Hoo
-gravatar: elonehoo
-twitter: '@elonehoo'
+authors:
+  - name:  Elone Hoo
+    gravatar: elonehoo
+    twitter: '@elonehoo'
 ---
 
 <h1 align="center" style="margin:0;">开源好物</h1>
