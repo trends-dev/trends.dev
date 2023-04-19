@@ -47,6 +47,7 @@ export default defineConfigWithTheme<ThemeConfig>({
   head: [
     ['meta', { name: 'theme-color', content: '#3c8772' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
     [
       'link',
       {
