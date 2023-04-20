@@ -30,6 +30,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'鼠标监听事件', link:'/vue/vue3/0001-mouse-listener-event' },
         { text:'插槽样式', link:'/vue/vue3/0002-slots-style' },
         { text:'使用 shallowRef', link:'/vue/vue3/0003-shallow-ref' },
+        { text:'使用 Template', link:'/vue/vue3/0004-template' },
       ]
     }
   ]
