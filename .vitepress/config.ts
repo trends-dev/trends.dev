@@ -31,6 +31,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'插槽样式', link:'/vue/vue3/0002-slots-style' },
         { text:'使用 shallowRef', link:'/vue/vue3/0003-shallow-ref' },
         { text:'使用 Template', link:'/vue/vue3/0004-template' },
+        { text:'制作一个 v-for 组件', link:'/vue/vue3/0005-v-for-components' },
       ]
     }
   ]
