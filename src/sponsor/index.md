@@ -17,14 +17,14 @@ import AuthorGrop from '@theme/components/AuthorGrop.vue'
 	<tr>
 		<td>
 			<center>
-				<img src="public/trends.jpg" width="60%" />
+				<img src="../../public/trends.jpg" width="60%" />
 				<br/>
 				<font color="AAAAAA">支付宝</font>
 			</center>
 		</td>
 		<td>
 			<center>
-				<img src="public/wx.jpg" width="60%" />
+				<img src="../../public/wx.jpg" width="60%" />
 				<br/>
 				<font color="AAAAAA">微信</font>
 			</center>
