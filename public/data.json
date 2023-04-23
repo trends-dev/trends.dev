@@ -27,6 +27,11 @@
       "name": "Magic of UnoCss",
       "url": "https://github.com/conver-unocss",
       "img": "https://github.com/conver-unocss.png"
+    },
+    {
+      "name":"Li-Zhuohan",
+      "url":"https://github.com/011011100/",
+      "img": "https://github.com/011011100.png"
     }
   ],
   "platinum_china": [
@@ -41,8 +46,7 @@
     {
       "name":"Henies",
       "url":"https://github.com/Henies/",
-      "img": "https://github.com/Henies.png",
-      "description": "银牌赞助商"
+      "img": "https://github.com/Henies.png"
     }
   ],
   "basic":[
