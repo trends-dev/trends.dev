@@ -22,6 +22,7 @@ export interface SponsorData {
   platinum: Sponsor[]
   platinum_china: Sponsor[]
   gold: Sponsor[]
+  basic:Sponsor[]
   silver: Sponsor[]
   bronze: Sponsor[]
 }

@@ -38,6 +38,14 @@
     }
   ],
   "gold": [
+    {
+      "name":"Henies",
+      "url":"https://github.com/Henies/",
+      "img": "https://github.com/Henies.png",
+      "description": "银牌赞助商"
+    }
+  ],
+  "basic":[
 
   ],
   "bronze": [
