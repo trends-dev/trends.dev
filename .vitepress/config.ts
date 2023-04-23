@@ -34,7 +34,24 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'制作一个 v-for 组件', link:'/vue/vue3/0005-v-for-components' },
       ]
     }
-  ]
+  ],
+  '/ChatGpt/': [
+    {
+      text: 'ChatGpt专栏',
+      items:[
+        { text:'首页', link:'/ChatGpt/' },
+      ]
+    }
+  ],
+  '/sponsor/': [
+    {
+      text: '赞助我们',
+      items:[
+        { text:'首页', link:'/sponsor/' },
+      ]
+    }
+  ],
+
 }
 
 export default defineConfigWithTheme<ThemeConfig>({
