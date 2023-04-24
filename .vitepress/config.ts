@@ -34,6 +34,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'使用 Template', link:'/vue/vue3/0004-template' },
         { text:'制作一个 v-for 组件', link:'/vue/vue3/0005-v-for-components' },
         { text:'如何动态渲染 Class', link:'/vue/vue3/0006-v-bind-class' },
+        { text:'组合式的小技巧', link:'/vue/vue3/0007-composables' },
       ]
     }
   ],
