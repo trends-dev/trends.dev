@@ -63,10 +63,6 @@ function track(interest?: boolean) {
         @click="track()"
       >
         <picture v-if="img.endsWith('png')">
-          <!-- <source
-            type="image/avif"
-            :srcset="`${img.replace(/\.png$/, '.avif')}`"
-          /> -->
           <img :src="`${img}`" :style="props.placement === 'aside' ? 'width: 50px;height: 50px;' : ''" :alt="name" />
         </picture>
         <img v-else :src="`${base}/images/${img}`" :alt="name" />
@@ -135,10 +131,15 @@ function track(interest?: boolean) {
 .landing .sponsor-item img {
   transition: filter 0.2s ease;
 }
-.dark .aside .sponsor-item img,
+/* .dark .aside .sponsor-item img,
 .dark .landing .sponsor-item img {
-  filter: grayscale(1) invert(1);
-}
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+} */
 .dark .aside .sponsor-item:hover,
 .dark .landing .sponsor-item:hover {
   color: var(--vt-c-indigo);

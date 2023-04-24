@@ -110,6 +110,8 @@ onMounted(async () => {
     <SponsorsGroup tier="platinum" placement="landing" />
     <h2>金牌赞助商</h2>
     <SponsorsGroup tier="gold" placement="landing" />
+    <h2>银牌赞助商</h2>
+    <SponsorsGroup tier="silver" placement="landing" />
   </section>
 
   <!-- <SiteMap /> -->
@@ -281,9 +283,9 @@ html:not(.dark) .accent,
   justify-content: center;
 }
 
-.dark #special-sponsor img {
+/* .dark #special-sponsor img {
   filter: grayscale(1) invert(1);
-}
+} */
 
 #highlights {
   max-width: 960px;
