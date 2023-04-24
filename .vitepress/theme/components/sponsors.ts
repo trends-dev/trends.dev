@@ -1,7 +1,7 @@
 // shared data across instances so we load only once
 
 import { ref } from 'vue'
-import A from '../../../public/data.json'
+import A from '../../../src/public/data.json'
 
 declare global {
   const fathom: {
