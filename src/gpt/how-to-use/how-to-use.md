@@ -52,20 +52,20 @@ import AuthorGrop from '@theme/components/AuthorGrop.vue'
 >
 > https://poe.com
 
-![img.png](src/public/gpt/poe.png)
+![img.png](/gpt/poe.png)
 
 
 > 2.可以生成画作,可调教属于自己的模型, 需要魔法, 有限量token
 >
 > https://writesonic.com/chat
 
-![img.png](src/public/gpt/writesonic.png)
+![img.png](/gpt/writesonic.png)
 
 > 3. AI搜索引擎,类似于Bing会将搜索源头列出来
 >
 > https://www.phind.com/
 
-![img.png](src/public/gpt/phind.png)
+![img.png](/gpt/phind.png)
 
 ---
 
@@ -123,11 +123,11 @@ import AuthorGrop from '@theme/components/AuthorGrop.vue'
 >
 >  [魔搭社区 (modelscope.cn)](https://modelscope.cn/studios)
 
-![img.png](src/public/gpt/modelscope.png)
+![img.png](/gpt/modelscope.png)
 
 
 >  ChitGPT，CSDN产物
 >
 >  https://so.csdn.net/so/search?t=chat
 
-![img.png](src/public/gpt/csdn.png)
+![img.png](/gpt/csdn.png)
