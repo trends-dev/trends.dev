@@ -98,7 +98,7 @@ function track(interest?: boolean) {
 
 .sponsor-item {
   margin: 2px 0;
-  background-color: var(--vt-c-white-soft);
+  background-color: var(--vt-c-bg-soft);
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -3,7 +3,7 @@
     {
       "name": "WIP of Elone Hoo",
       "url": "https://github.com/wip-elonehoo",
-      "img": "https://github.com/wip-elonehoo.png",
+      "img": "/avatars/wip-elonehoo.png",
       "description": "Elone Hoo 的实验项目🧪"
     }
   ],
@@ -11,19 +11,19 @@
     {
       "name": "Vite Inspector",
       "url": "https://github.com/vite-inspector",
-      "img": "https://github.com/vite-inspector.png"
+      "img": "/avatars/vite-inspector.png"
     },
     {
       "name":"Li-Zhuohan",
       "url":"https://github.com/011011100/",
-      "img": "https://github.com/011011100.png"
+      "img": "/avatars/011011100.png"
     }
   ],
   "platinum_china": [
     {
       "name": "WIP of Elone Hoo",
       "url": "https://github.com/wip-elonehoo",
-      "img": "https://github.com/wip-elonehoo.png",
+      "img": "/avatars/wip-elonehoo.png",
       "description": "Elone Hoo 的实验项目🧪"
     }
   ],
@@ -31,29 +31,29 @@
     {
       "name": "logon-tracer",
       "url": "https://github.com/logon-tracer",
-      "img": "https://github.com/logon-tracer.png"
+      "img": "/avatars/logon-tracer.png"
     },
     {
       "name": "Magic of UnoCss",
       "url": "https://github.com/conver-unocss",
-      "img": "https://github.com/conver-unocss.png"
+      "img": "/avatars/conver-unocss.png"
     },
     {
       "name": "vue-hooks-form",
       "url": "https://github.com/vue-hooks-form",
-      "img": "https://github.com/vue-hooks-form.png"
+      "img": "/avatars/vue-hooks-form.png"
     },
     {
       "name": "Fenta",
       "url": "https://github.com/wkx160312746",
-      "img": "https://github.com/wkx160312746.png"
+      "img": "/avatars/wkx160312746.png"
     }
   ],
   "silver": [
     {
       "name":"Henies",
       "url":"https://github.com/Henies/",
-      "img": "https://github.com/Henies.png"
+      "img": "/avatars/Henies.png"
     }
   ]
 }
