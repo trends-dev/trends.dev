@@ -39,7 +39,8 @@ onMounted(async () => {
           />
         </svg>
       </a>
-      <a class="setup" href="/vue/">Vue 专栏</a>
+      <a class="setup mr-18px" href="/vue/">Vue 专栏</a>
+      <a class="setup" href="/ChatGPT/">ChatGPT 专栏</a>
     </p>
   </section>
 

@@ -9,6 +9,7 @@ import UnoCss from 'unocss/vite'
 const nav: ThemeConfig['nav'] = [
   { text: '开源好物', link: '/open-source/', },
   { text: 'Vue 专栏', link: '/vue/', },
+  { text: 'ChatGPT 专栏', link: '/ChatGPT/', },
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
@@ -36,11 +37,12 @@ export const sidebar: ThemeConfig['sidebar'] = {
       ]
     }
   ],
-  '/ChatGpt/': [
+  '/ChatGPT/': [
     {
-      text: 'ChatGpt专栏',
+      text: 'ChatGPT专栏',
       items:[
         { text:'首页', link:'/ChatGpt/' },
+        { text:'如何使用', link:'/ChatGPT/how-to-use/how-to-use' },
       ]
     }
   ],
