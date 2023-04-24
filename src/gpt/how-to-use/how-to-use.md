@@ -1,13 +1,19 @@
-
 ---
 authors:
-- name: Fenta
-  gravatar: wkx160312746
-  twitter: '@fenta9527'
+  - name: Fenta
+    gravatar: wkx160312746
+    twitter: '@fenta9527'
 ---
 
-****
 
+<script setup>
+import Author from '@theme/components/Author.vue'
+import AuthorGrop from '@theme/components/AuthorGrop.vue'
+</script>
+
+<AuthorGrop>
+  <Author />
+</AuthorGrop>
 
 ### 官网
 
@@ -46,21 +52,20 @@ authors:
 >
 > https://poe.com
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/D52N1yJbHXBXx1ZITBZrzGlN6icOC4HSX5zzvZ2XVibG5CrnDKTiaZXO0LEEqrflGiaHmeogIDV5gfIrd3m9h0kNUA/0?wx_fmt=png)
-
+![img.png](src/public/gpt/poe.png)
 
 
 > 2.可以生成画作,可调教属于自己的模型, 需要魔法, 有限量token
 >
 > https://writesonic.com/chat
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/D52N1yJbHXBZH5Bk6KOV9SAjTgo2F3CMjGicApheXgE0ESRCPpdoM7TQiaXB0gyruyDC682mZHmB1xZS9libHBGjw/640?wx_fmt=png)
+![img.png](src/public/gpt/writesonic.png)
 
 > 3. AI搜索引擎,类似于Bing会将搜索源头列出来
-     >
-     >     https://www.phind.com/
+>
+> https://www.phind.com/
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/D52N1yJbHXBZH5Bk6KOV9SAjTgo2F3CMOnbBJd7QNRdUVpRFeibwYtnxtibP0vQWCQj2yTBfkBbVgXSLVXiafLlsw/640?wx_fmt=png)
+![img.png](src/public/gpt/phind.png)
 
 ---
 
@@ -118,12 +123,11 @@ authors:
 >
 >  [魔搭社区 (modelscope.cn)](https://modelscope.cn/studios)
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/D52N1yJbHXBXx1ZITBZrzGlN6icOC4HSXAqicDyGz1WckncYGk0jPBI9htoQRoeibRtN8vGetBbRRyXsUgNstrRiag/0?wx_fmt=png)
-
+![img.png](src/public/gpt/modelscope.png)
 
 
 >  ChitGPT，CSDN产物
 >
 >  https://so.csdn.net/so/search?t=chat
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/D52N1yJbHXBZH5Bk6KOV9SAjTgo2F3CM6hYFsM4OttXoaFRmm9GeHQhBCKtAyVXkpBp23XkUibCTFsHL82GCWsw/640?wx_fmt=png)
+![img.png](src/public/gpt/csdn.png)
