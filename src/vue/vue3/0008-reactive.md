@@ -1,6 +1,7 @@
 ---
 authors:
   - name:  Elone Hoo
+    gravatar: elonehoo
     link: '@elonehoo'
     url: 'https://github.com/elonehoo'
 ---
