@@ -2,7 +2,8 @@
 authors:
   - name:  Elone Hoo
     gravatar: elonehoo
-    twitter: '@elonehoo'
+    link: '@elonehoo'
+    url: 'https://github.com/elonehoo'
 ---
 
 <h1 align="center" style="margin:0;">如何动态渲染 Class</h1>

@@ -3,7 +3,6 @@ import { useData } from 'vitepress'
 
 const { frontmatter } = useData()
 
-console.log(frontmatter.value.authors)
 </script>
 
 <template>
@@ -18,7 +17,7 @@ console.log(frontmatter.value.authors)
           <li style="list-style: none;" class="flex items-center space-x-2">
               <img
                 v-if="item.gravatar"
-                :src="'https://github.com/' + item.gravatar + '.png'"
+                :src="'/avatars/' + item.gravatar + '.png'"
                 alt="author image"
                 class="w-10 h-10 rounded-full"
               />
@@ -31,14 +30,14 @@ console.log(frontmatter.value.authors)
               <dl class="text-sm font-medium leading-5 whitespace-nowrap">
                 <dt class="sr-only">Name</dt>
                 <dd class="text-gray-900 dark:text-white">{{ item.name }}</dd>
-                <dt v-if="item.twitter" class="sr-only">Twitter</dt>
-                <dd v-if="item.twitter">
+                <dt v-if="item.link" class="sr-only">Me</dt>
+                <dd v-if="item.link">
                   <a
-                    :href="'https://twitter.com/' + item.twitter"
+                    :href="item.url"
                     target="_blank"
                     rel="noopnener noreferrer"
                     class="link"
-                    >{{ item.twitter }}</a
+                    >{{ item.link }}</a
                   >
                 </dd>
               </dl>

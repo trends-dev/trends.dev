@@ -2,7 +2,8 @@
 authors:
   - name: Fenta
     gravatar: wkx160312746
-    twitter: '@fenta9527'
+    link: '@fenta9527'
+    url: 'https://twitter.com/fenta9527'
 ---
 
 
