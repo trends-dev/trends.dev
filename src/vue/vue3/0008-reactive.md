@@ -1,8 +1,8 @@
 ---
 authors:
   - name:  Elone Hoo
-    gravatar: elonehoo
-    twitter: '@elonehoo'
+    link: '@elonehoo'
+    url: 'https://github.com/elonehoo'
 ---
 
 <h1 align="center" style="margin:0;">reactive 的小技巧</h1>
