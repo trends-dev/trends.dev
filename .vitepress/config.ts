@@ -36,6 +36,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'如何动态渲染 Class', link:'/vue/vue3/0006-v-bind-class' },
         { text:'组合式的小技巧', link:'/vue/vue3/0007-composables' },
         { text:'reactive 的小技巧', link:'/vue/vue3/0008-reactive' },
+        { text:'Ref 的小技巧', link:'/vue/vue3/0009-ref' },
       ]
     }
   ],
