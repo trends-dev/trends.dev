@@ -37,6 +37,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'组合式的小技巧', link:'/vue/vue3/0007-composables' },
         { text:'reactive 的小技巧', link:'/vue/vue3/0008-reactive' },
         { text:'Ref 的小技巧', link:'/vue/vue3/0009-ref' },
+        { text:'Vue组件参数的小提议', link:'/vue/vue3/0010-vue-props' },
       ]
     }
   ],
