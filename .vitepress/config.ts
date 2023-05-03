@@ -8,7 +8,9 @@ import UnoCss from 'unocss/vite'
 
 const nav: ThemeConfig['nav'] = [
   { text: '开源好物', link: '/open-source/', },
-  { text: 'Vue 专栏', link: '/vue/', },
+  { text: 'Vue 专栏', activeMatch: `^/(vue|vue3)/`,items:[
+    { text: '小技巧', link: '/vue/' },
+  ] },
   { text: 'ChatGPT 专栏', link: '/gpt/', },
 ]
 
@@ -25,7 +27,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
   ],
   '/vue/':[
     {
-      text: 'Vue 专栏',
+      text: 'Vue 小技巧',
       items:[
         { text:'首页', link:'/vue/' },
         { text:'鼠标监听事件', link:'/vue/vue3/0001-mouse-listener-event' },
