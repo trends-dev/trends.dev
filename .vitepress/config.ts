@@ -42,6 +42,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'Vue组件参数的小提议', link:'/vue/vue3/0010-vue-props' },
         { text:'setup 小技巧', link:'/vue/vue3/0011-vue-setup' },
         { text:'v-bind 小技巧', link:'/vue/vue3/0012-v-bind' },
+        { text:'vue Devtools 的小技巧', link:'/vue/vue3/0013-vue-config' },
       ]
     }
   ],
