@@ -14,6 +14,7 @@ const nav: ThemeConfig['nav'] = [
   { text: 'ChatGPT 专栏', link: '/gpt/', },
   { text: '关于', activeMatch: `^/(about)/`,items:[
     { text: '团队', link: '/about/team' },
+    { text: '投稿', link: '/about/column' },
   ] },
   { text: '赞助', link: '/sponsor/', },
 ]
