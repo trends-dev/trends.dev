@@ -12,6 +12,10 @@ const nav: ThemeConfig['nav'] = [
     { text: '小技巧', link: '/vue/' },
   ] },
   { text: 'ChatGPT 专栏', link: '/gpt/', },
+  { text: '关于', activeMatch: `^/(about)/`,items:[
+    { text: '团队', link: '/about/team' },
+  ] },
+  { text: '赞助', link: '/sponsor/', },
 ]
 
 export const sidebar: ThemeConfig['sidebar'] = {
