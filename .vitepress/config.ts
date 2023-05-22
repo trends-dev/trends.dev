@@ -50,6 +50,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'vue Devtools 的小技巧', link:'/vue/vue3/0013-vue-config' },
         { text:'v-show 的小技巧', link:'/vue/vue3/0014-v-show' },
         { text:'自定义指令', link:'/vue/vue3/0015-vue-directives' },
+        { text:'Vue强制重新加载整个页面', link:'/vue/vue3/0020-vue-reload' },
       ]
     }
   ],
