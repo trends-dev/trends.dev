@@ -50,6 +50,7 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'vue Devtools 的小技巧', link:'/vue/vue3/0013-vue-config' },
         { text:'v-show 的小技巧', link:'/vue/vue3/0014-v-show' },
         { text:'自定义指令', link:'/vue/vue3/0015-vue-directives' },
+        { text:'vue版本', link:'/vue/vue3/0016-vue-version' },        
         { text:'配置项的模板', link:'/vue/vue3/0017-vue-template' },
       ]
     }
