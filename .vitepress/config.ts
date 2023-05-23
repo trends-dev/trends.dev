@@ -52,7 +52,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'自定义指令', link:'/vue/vue3/0015-vue-directives' },
         { text:'vue版本', link:'/vue/vue3/0016-vue-version' },        
         { text:'配置项的模板', link:'/vue/vue3/0017-vue-template' },        
-        { text:'插槽内容的转换', link:'/vue/vue3/0018-vue-transitions' },
+        { text:'插槽内容的转换', link:'/vue/vue3/0018-vue-transitions' },        
+        { text:'解构v-for', link:'/vue/vue3/0019-destructure-v-for' },
       ]
     }
   ],
