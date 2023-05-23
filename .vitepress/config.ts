@@ -53,7 +53,8 @@ export const sidebar: ThemeConfig['sidebar'] = {
         { text:'vue版本', link:'/vue/vue3/0016-vue-version' },        
         { text:'配置项的模板', link:'/vue/vue3/0017-vue-template' },        
         { text:'插槽内容的转换', link:'/vue/vue3/0018-vue-transitions' },        
-        { text:'解构v-for', link:'/vue/vue3/0019-destructure-v-for' },
+        { text:'解构v-for', link:'/vue/vue3/0019-destructure-v-for' },        
+        { text:'Vue强制重新加载整个页面', link:'/vue/vue3/0020-vue-reload' },
       ]
     }
   ],
